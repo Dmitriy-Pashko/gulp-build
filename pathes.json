@@ -1,0 +1,21 @@
+{
+    "build": {
+        "html": "build/",
+        "js": "build/static/js",
+        "css": "build/static/css",
+        "vendor": "build/static/js",
+        "img" : "build/static/"
+    },
+    "src": {
+        "html": "src/*.html",
+        "js": "src/**/*.js",
+        "css": "src/**/*.scss",
+        "img" : "src/**/images/**/*.*"
+    },
+    "watch": {
+        "html": "src/*.html",
+        "js": "src/**/*.js",
+        "css": "src/**/*.scss",
+        "img" : "src/**/img/**/*.*"
+    }
+}
